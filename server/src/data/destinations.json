@@ -1,0 +1,427 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "제주도",
+      "description": "아름다운 해변과 한라산이 있는 대한민국의 대표적인 휴양지입니다.",
+      "images": [
+        "/images/destinations/jeju/jeju1.jpg",
+        "/images/destinations/jeju/jeju2.jpg",
+        "/images/destinations/jeju/jeju3.jpg"
+      ],
+      "coordinates": {
+        "lat": 33.4996,
+        "lon": 126.5312
+      },
+      "themes": ["자연", "휴양", "문화", "음식"],
+      "seasonScore": 0.9,
+      "themeScore": 0.85,
+      "recommendedMonths": [4, 5, 6, 9, 10],
+      "monthlyClimate": {
+        "4": { "temperature": 15, "precipitation": 80 },
+        "5": { "temperature": 20, "precipitation": 100 },
+        "6": { "temperature": 25, "precipitation": 150 },
+        "9": { "temperature": 24, "precipitation": 120 },
+        "10": { "temperature": 18, "precipitation": 90 }
+      },
+      "highlights": {
+        "봄": ["유채꽃 축제", "한라산 등산"],
+        "여름": ["해변 수영", "서귀포 해변"],
+        "가을": ["단풍 명소", "감귤 수확"],
+        "겨울": ["눈꽃 축제", "온천"]
+      },
+      "costs": {
+        "flight": {
+          "economy": 150000,
+          "business": 300000
+        },
+        "hotel": {
+          "budget": 80000,
+          "standard": 150000,
+          "luxury": 300000
+        },
+        "dailyExpense": {
+          "food": 50000,
+          "transportation": 20000,
+          "activities": 30000
+        }
+      },
+      "details": {
+        "bestTimeToVisit": "4월~6월, 9월~10월",
+        "language": "한국어",
+        "currency": "KRW",
+        "timeZone": "UTC+9",
+        "safety": "매우 안전",
+        "popularAttractions": [
+          "성산일출봉",
+          "우도",
+          "섭지코지",
+          "만장굴",
+          "비자림"
+        ],
+        "localFood": [
+          "흑돼지",
+          "해산물",
+          "감귤",
+          "말고기",
+          "전복죽"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "도쿄",
+      "description": "일본의 수도로, 현대적인 도시 문화와 전통이 공존하는 대도시입니다.",
+      "images": [
+        "/images/destinations/tokyo/tokyo1.jpg",
+        "/images/destinations/tokyo/tokyo2.jpg",
+        "/images/destinations/tokyo/tokyo3.jpg"
+      ],
+      "coordinates": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "themes": ["문화", "쇼핑", "음식", "액티비티"],
+      "seasonScore": 0.85,
+      "themeScore": 0.9,
+      "recommendedMonths": [3, 4, 5, 10, 11],
+      "monthlyClimate": {
+        "3": { "temperature": 12, "precipitation": 100 },
+        "4": { "temperature": 17, "precipitation": 120 },
+        "5": { "temperature": 22, "precipitation": 130 },
+        "10": { "temperature": 19, "precipitation": 180 },
+        "11": { "temperature": 14, "precipitation": 90 }
+      },
+      "highlights": {
+        "봄": ["벚꽃 축제", "도쿄 디즈니랜드"],
+        "여름": ["여름 축제", "도쿄 스카이트리"],
+        "가을": ["단풍 명소", "시부야 쇼핑"],
+        "겨울": ["일루미네이션", "온천"]
+      },
+      "costs": {
+        "flight": {
+          "economy": 400000,
+          "business": 800000
+        },
+        "hotel": {
+          "budget": 100000,
+          "standard": 200000,
+          "luxury": 400000
+        },
+        "dailyExpense": {
+          "food": 80000,
+          "transportation": 30000,
+          "activities": 50000
+        }
+      },
+      "details": {
+        "bestTimeToVisit": "3월~5월, 10월~11월",
+        "language": "일본어",
+        "currency": "JPY",
+        "timeZone": "UTC+9",
+        "safety": "매우 안전",
+        "popularAttractions": [
+          "시부야",
+          "하라주쿠",
+          "아사쿠사",
+          "도쿄 스카이트리",
+          "도쿄 디즈니랜드"
+        ],
+        "localFood": [
+          "초밥",
+          "라멘",
+          "타코야키",
+          "오코노미야키",
+          "규동"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "방콕",
+      "description": "태국의 수도로, 활기찬 시장과 화려한 사원이 있는 동남아시아의 대표적인 관광지입니다.",
+      "images": [
+        "/images/destinations/bangkok/bangkok1.jpg",
+        "/images/destinations/bangkok/bangkok2.jpg",
+        "/images/destinations/bangkok/bangkok3.jpg"
+      ],
+      "coordinates": {
+        "lat": 13.7563,
+        "lon": 100.5018
+      },
+      "themes": ["문화", "음식", "쇼핑", "액티비티"],
+      "seasonScore": 0.8,
+      "themeScore": 0.85,
+      "recommendedMonths": [11, 12, 1, 2],
+      "monthlyClimate": {
+        "11": { "temperature": 28, "precipitation": 50 },
+        "12": { "temperature": 27, "precipitation": 10 },
+        "1": { "temperature": 27, "precipitation": 10 },
+        "2": { "temperature": 28, "precipitation": 20 }
+      },
+      "highlights": {
+        "봄": ["송크란 축제", "왕궁 방문"],
+        "여름": ["야시장", "차투착 시장"],
+        "가을": ["사원 투어", "태국 마사지"],
+        "겨울": ["크리스마스 이벤트", "루이 크루즈"]
+      },
+      "costs": {
+        "flight": {
+          "economy": 500000,
+          "business": 1000000
+        },
+        "hotel": {
+          "budget": 60000,
+          "standard": 120000,
+          "luxury": 250000
+        },
+        "dailyExpense": {
+          "food": 40000,
+          "transportation": 20000,
+          "activities": 30000
+        }
+      },
+      "details": {
+        "bestTimeToVisit": "11월~2월",
+        "language": "태국어",
+        "currency": "THB",
+        "timeZone": "UTC+7",
+        "safety": "안전",
+        "popularAttractions": [
+          "왕궁",
+          "왓 아룬",
+          "차투착 시장",
+          "아순션 시장",
+          "루이 크루즈"
+        ],
+        "localFood": [
+          "팟타이",
+          "똠얌꿍",
+          "쏨땀",
+          "카오팟",
+          "팟크라파오"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "파리",
+      "description": "프랑스의 수도로, 예술과 패션의 도시입니다.",
+      "images": [
+        "/images/destinations/paris/paris1.jpg",
+        "/images/destinations/paris/paris2.jpg",
+        "/images/destinations/paris/paris3.jpg"
+      ],
+      "coordinates": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "themes": ["문화", "예술", "쇼핑", "음식"],
+      "seasonScore": 0.85,
+      "themeScore": 0.9,
+      "recommendedMonths": [4, 5, 6, 9, 10],
+      "monthlyClimate": {
+        "4": { "temperature": 12, "precipitation": 60 },
+        "5": { "temperature": 16, "precipitation": 70 },
+        "6": { "temperature": 19, "precipitation": 50 },
+        "9": { "temperature": 17, "precipitation": 60 },
+        "10": { "temperature": 13, "precipitation": 70 }
+      },
+      "highlights": {
+        "봄": ["에펠탑", "루브르 박물관"],
+        "여름": ["세느강 크루즈", "몽마르트"],
+        "가을": ["베르사유 궁전", "샹젤리제"],
+        "겨울": ["크리스마스 마켓", "오르세 미술관"]
+      }
+    },
+    {
+      "id": "5",
+      "name": "뉴욕",
+      "description": "미국의 대표적인 대도시로, 자유의 여신상과 타임스퀘어가 있는 세계의 중심지입니다.",
+      "images": [
+        "/images/destinations/newyork/newyork1.jpg",
+        "/images/destinations/newyork/newyork2.jpg",
+        "/images/destinations/newyork/newyork3.jpg"
+      ],
+      "coordinates": {
+        "lat": 40.7128,
+        "lon": -74.0060
+      },
+      "themes": ["문화", "쇼핑", "액티비티", "음식"],
+      "seasonScore": 0.8,
+      "themeScore": 0.95,
+      "recommendedMonths": [4, 5, 6, 9, 10],
+      "monthlyClimate": {
+        "4": { "temperature": 12, "precipitation": 100 },
+        "5": { "temperature": 18, "precipitation": 110 },
+        "6": { "temperature": 23, "precipitation": 90 },
+        "9": { "temperature": 20, "precipitation": 90 },
+        "10": { "temperature": 15, "precipitation": 90 }
+      },
+      "highlights": {
+        "봄": ["센트럴 파크", "자유의 여신상"],
+        "여름": ["타임스퀘어", "브로드웨이"],
+        "가을": ["엠파이어 스테이트 빌딩", "메트로폴리탄 미술관"],
+        "겨울": ["록펠러 센터", "브라이언트 파크"]
+      }
+    },
+    {
+      "id": "6",
+      "name": "런던",
+      "description": "영국의 수도로, 빅벤과 타워 브릿지가 있는 역사적인 도시입니다.",
+      "images": [
+        "/images/destinations/london/london1.jpg",
+        "/images/destinations/london/london2.jpg",
+        "/images/destinations/london/london3.jpg"
+      ],
+      "coordinates": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "themes": ["문화", "역사", "쇼핑", "음식"],
+      "seasonScore": 0.75,
+      "themeScore": 0.9,
+      "recommendedMonths": [5, 6, 7, 8, 9],
+      "monthlyClimate": {
+        "5": { "temperature": 15, "precipitation": 60 },
+        "6": { "temperature": 18, "precipitation": 50 },
+        "7": { "temperature": 20, "precipitation": 40 },
+        "8": { "temperature": 20, "precipitation": 50 },
+        "9": { "temperature": 17, "precipitation": 60 }
+      },
+      "highlights": {
+        "봄": ["빅벤", "타워 브릿지"],
+        "여름": ["버킹엄 궁전", "하이드 파크"],
+        "가을": ["영국 박물관", "타워 오브 런던"],
+        "겨울": ["크리스마스 마켓", "윈저 성"]
+      }
+    },
+    {
+      "id": "7",
+      "name": "시드니",
+      "description": "호주의 대표적인 도시로, 오페라 하우스와 하버 브릿지가 있는 항구 도시입니다.",
+      "images": [
+        "/images/destinations/sydney/sydney1.jpg",
+        "/images/destinations/sydney/sydney2.jpg",
+        "/images/destinations/sydney/sydney3.jpg"
+      ],
+      "coordinates": {
+        "lat": -33.8688,
+        "lon": 151.2093
+      },
+      "themes": ["자연", "문화", "액티비티", "해변"],
+      "seasonScore": 0.9,
+      "themeScore": 0.85,
+      "recommendedMonths": [10, 11, 12, 1, 2, 3],
+      "monthlyClimate": {
+        "10": { "temperature": 20, "precipitation": 70 },
+        "11": { "temperature": 22, "precipitation": 80 },
+        "12": { "temperature": 24, "precipitation": 70 },
+        "1": { "temperature": 26, "precipitation": 80 },
+        "2": { "temperature": 26, "precipitation": 90 },
+        "3": { "temperature": 24, "precipitation": 90 }
+      },
+      "highlights": {
+        "봄": ["오페라 하우스", "하버 브릿지"],
+        "여름": ["본다이 비치", "다링 하버"],
+        "가을": ["블루 마운틴", "로열 보타닉 가든"],
+        "겨울": ["시드니 수족관", "시드니 타워"]
+      }
+    },
+    {
+      "id": "8",
+      "name": "싱가포르",
+      "description": "동남아시아의 현대적인 도시국가로, 마리나 베이 샌즈와 가든스 바이 더 베이가 있는 도시입니다.",
+      "images": [
+        "/images/destinations/singapore/singapore1.jpg",
+        "/images/destinations/singapore/singapore2.jpg",
+        "/images/destinations/singapore/singapore3.jpg"
+      ],
+      "coordinates": {
+        "lat": 1.3521,
+        "lon": 103.8198
+      },
+      "themes": ["문화", "쇼핑", "음식", "액티비티"],
+      "seasonScore": 0.85,
+      "themeScore": 0.9,
+      "recommendedMonths": [2, 3, 4, 5, 6, 7],
+      "monthlyClimate": {
+        "2": { "temperature": 27, "precipitation": 150 },
+        "3": { "temperature": 28, "precipitation": 170 },
+        "4": { "temperature": 28, "precipitation": 160 },
+        "5": { "temperature": 28, "precipitation": 150 },
+        "6": { "temperature": 28, "precipitation": 130 },
+        "7": { "temperature": 27, "precipitation": 140 }
+      },
+      "highlights": {
+        "봄": ["마리나 베이 샌즈", "가든스 바이 더 베이"],
+        "여름": ["센토사 섬", "유니버설 스튜디오"],
+        "가을": ["차이나타운", "리틀 인디아"],
+        "겨울": ["오차드 로드", "클라크 키"]
+      }
+    },
+    {
+      "id": "9",
+      "name": "홍콩",
+      "description": "중국의 특별행정구로, 빅토리아 피크와 홍콩 디즈니랜드가 있는 현대적인 도시입니다.",
+      "images": [
+        "/images/destinations/hongkong/hongkong1.jpg",
+        "/images/destinations/hongkong/hongkong2.jpg",
+        "/images/destinations/hongkong/hongkong3.jpg"
+      ],
+      "coordinates": {
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "themes": ["문화", "쇼핑", "음식", "액티비티"],
+      "seasonScore": 0.8,
+      "themeScore": 0.9,
+      "recommendedMonths": [10, 11, 12, 1, 2, 3],
+      "monthlyClimate": {
+        "10": { "temperature": 24, "precipitation": 100 },
+        "11": { "temperature": 20, "precipitation": 40 },
+        "12": { "temperature": 17, "precipitation": 30 },
+        "1": { "temperature": 16, "precipitation": 30 },
+        "2": { "temperature": 16, "precipitation": 50 },
+        "3": { "temperature": 19, "precipitation": 80 }
+      },
+      "highlights": {
+        "봄": ["빅토리아 피크", "홍콩 디즈니랜드"],
+        "여름": ["오션 파크", "랭콴 퐁"],
+        "가을": ["템플 스트리트 나이트 마켓", "스타 페리"],
+        "겨울": ["크리스마스 이벤트", "타임스퀘어"]
+      }
+    },
+    {
+      "id": "10",
+      "name": "타이페이",
+      "description": "대만의 수도로, 타이페이 101과 스린 야시장이 있는 현대적인 도시입니다.",
+      "images": [
+        "/images/destinations/taipei/taipei1.jpg",
+        "/images/destinations/taipei/taipei2.jpg",
+        "/images/destinations/taipei/taipei3.jpg"
+      ],
+      "coordinates": {
+        "lat": 25.0330,
+        "lon": 121.5654
+      },
+      "themes": ["문화", "음식", "쇼핑", "액티비티"],
+      "seasonScore": 0.85,
+      "themeScore": 0.85,
+      "recommendedMonths": [3, 4, 5, 10, 11],
+      "monthlyClimate": {
+        "3": { "temperature": 19, "precipitation": 160 },
+        "4": { "temperature": 23, "precipitation": 180 },
+        "5": { "temperature": 26, "precipitation": 230 },
+        "10": { "temperature": 24, "precipitation": 100 },
+        "11": { "temperature": 20, "precipitation": 80 }
+      },
+      "highlights": {
+        "봄": ["타이페이 101", "스린 야시장"],
+        "여름": ["마오콩", "베이터우 온천"],
+        "가을": ["국립 고궁 박물관", "롱산 사"],
+        "겨울": ["크리스마스 이벤트", "신이 쇼핑 지구"]
+      }
+    }
+  ]
+} 
